@@ -18,8 +18,8 @@ class Shopping{
   void PushList(Goods object);
   Goods GetLastElement();
   void PrintList();
-  void SortByPrice();
-  void SortByIndex();
+  void SortByPrice(); // ascending order
+  void SortByIndex(); // ascending order
 
  private:
   std::vector<Goods> shopping_list_;
